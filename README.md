@@ -25,6 +25,26 @@ Deepface is a lightweight [face recognition](https://sefiks.com/2018/08/06/deep-
 
 Experiments show that human beings have 97.53% accuracy on facial recognition tasks whereas those models already reached and passed that accuracy level.
 
+## Summary
+
+Based on the original repo, we use this tool to retrieve dyad's facial emotions from videos in a real-time manner. 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/45308022/220834147-af44570f-d082-4638-ab96-7b0134b7d860.png" width="600" height="450" />
+</p>
+
+Given the dyad's face croppoed images located in ./database/*.jpg, the script first detects the face location and do analysis on their facial emotions as above.
+
+
+After you specify your video path in main.py and also with the proper detection and emotion analysis model settings, just run the following command.
+
+```shell
+$ python3 main.py
+```
+
+If you have any question regarding on how-to-use it, please send an email to ybkim95@media.mit.edu. 
+
+
 ## Installation [![PyPI](https://img.shields.io/pypi/v/deepface.svg)](https://pypi.org/project/deepface/) [![Conda](https://img.shields.io/conda/vn/conda-forge/deepface.svg)](https://anaconda.org/conda-forge/deepface)
 
 The easiest way to install deepface is to download it from [`PyPI`](https://pypi.org/project/deepface/). It's going to install the library itself and its prerequisites as well.
